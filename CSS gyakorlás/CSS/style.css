@@ -23,6 +23,18 @@ h2 {
     color: blue;
     font-size: 12px;
     font-family: fantasy;
+    margin: 10px 0px;
+    text-align: justify;
+}
+#szoveg1{
+    background-color: rgba(4, 255, 58, 0.20);
+}
+
+.vastag{
+    font-style: italic;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 h3 {
     color: seagreen;
@@ -33,8 +45,13 @@ h3 {
 }
 .image_div{
     background-color: rgb(25, 228, 52);
+    border-top: dashed 5px black;
+    padding-top: 2px;
 }
 
 img{
     height: 200px;
+    box-shadow: 3px 3px 10px blue;
+    margin: 1%;
+    border-radius: 10px;
 }
