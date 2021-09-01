@@ -1,7 +1,5 @@
 html{
     background-color: rgb(217, 236, 217);
-    background-image: url("../img/_p_a_pav3.jpg");
-    background-repeat: repeat-x;
 }
 
 @font-face {
@@ -60,4 +58,5 @@ img{
     box-shadow: 3px 3px 10px blue;
     margin: 1%;
     border-radius: 10px;
+    position: static;
 }
