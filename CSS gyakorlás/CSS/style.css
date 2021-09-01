@@ -1,12 +1,26 @@
+@font-face {
+    font-family: "Orangejuice";
+    src: url("fonts/orange juice 2.0.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Mango";
+    src: url("fonts/Racy\ Mango\ [Regular]\ Font\ by\ 7NTypes.otf");
+    font-weight: 500;
+}
+
 h1 {
-    color: green;
+    color: #008000;
+    font-family: Orangejuice;
+    text-align: center;
+    text-transform: uppercase;
 }
 h2 {
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+    font-family: Mango
 }
  p {
-    color: blueviolet;
+    color: #8a2be2;
     font-size: 12px;
     font-family: fantasy;
 }
