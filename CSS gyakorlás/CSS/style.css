@@ -20,11 +20,21 @@ h2 {
     font-family: Mango
 }
  p {
-    color: #8a2be2;
+    color: blue;
     font-size: 12px;
     font-family: fantasy;
 }
+h3 {
+    color: seagreen;
+    font-family: Mango;
+}
+#valamihosszu{
+    color: rgb(20, 160, 148);
+}
+.image_div{
+    background-color: rgb(25, 228, 52);
+}
 
 img{
-    width: 400px;
+    height: 200px;
 }
