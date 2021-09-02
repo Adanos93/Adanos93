@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML űrlap</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Személyes adatok</legend>
+                <div>
+                    <label for="name">Név: *</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email: *</label>
+                    <input id="email" name="email" type="text" required>
+                </div>
+                <div>
+                    <label for="address">Cím: *</label>
+                    <input id="address" name="address" type="text" required>
+                </div>
+                <div>
+                    <label for="comment">Megyjegyzés:</label>
+                    <textarea name="comment" id="comment" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Rendelés adatai</legend>
+                <span>Extra feltét</span>
+                <div>
+                    <input id="nothing" name="nothing" type="checkbox" value="0">
+                    <label for="nothing">Nem kérek</label>
+                </div>
+                <div>
+                    <input id="bacon" name="bacon" type="checkbox" value="300">
+                    <label for="bacon">Bacon</label>
+                </div>
+                <p></p>
+                <div>
+                    <input id="coal" name="Extra" type="radio" value="600">
+                    <label for="coal">Szén</label>
+                </div>
+                <div>
+                    <input id="dead_bird" name="Extra" type="radio" value="1000">
+                    <label for="dead_bird">Döglött madár</label>
+                </div>
+                <div>
+                    <input id="chopped_octopus" name="Extra" type="radio" value="1600">
+                    <label for="chopped_octopus">Szeletelt polip</label>
+                </div>
+                <div>
+                    <label for="sauce">Szószok</label>
+                    <select name="sauce" id="sauce">
+                        <option value="0" selected>Ketchup</option>
+                        <option value="100">Majonéz</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="quantity">Mennyiség: </label>
+                    <input type="number" name="quantity" id="quantity" min="1" max="10" value="0">
+                </div>
+            </fieldset>
+            <input type="button" value="Rendelés leadása"> Ár: <span>1200</span> Ft
+        </form>
+    </div>
+</body>
+
+</html>
